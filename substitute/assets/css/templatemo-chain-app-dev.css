@@ -886,14 +886,16 @@ Banner Style
   color: #000;
 }
 .title{
-  display: block;
-    float: center;
+    position: absolute;
     width: 16px;
-    padding-top: 30px;
+    left: 30px;
+    padding-left: 100px;
+    padding-top: 35px;
     margin-left: 16px;
     color: #4b8ef1;
-    border-radius: 500%;
+
 }
+
 .lgo {
   display: inline-block;
     width: 96px;
