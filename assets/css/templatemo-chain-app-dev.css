@@ -118,8 +118,8 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  font-weight: 300;
-  color: #afafaf;
+  font-weight: 500;
+  color: #000000;
 }
 
 img {
@@ -1220,11 +1220,11 @@ The Clients
 .menu .thumb span.category,
 .menu .thumb span.rating {
   font-weight: 700;
-  color: #afafaf;
+  color: #4b8ef1;
 }
 
 .menu .thumb i {
-  color: #afafaf;
+  color: #4b8ef1;
 }
 
 .the-clients .naccs .menu div {
@@ -1598,7 +1598,7 @@ footer .section-heading {
 
 footer .section-heading h4 {
   line-height: 45px;
-  color: #fff;
+  background-color: 4b8ef1;
   margin-left: 13%;
   margin-right: 13%;
   text-align: center;
