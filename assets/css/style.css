@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #4b2eed;
+  color: #ef6445;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f1775d;
+  color: #ef6445;
   text-decoration: none;
 }
 
@@ -25,6 +25,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.btn{
+  margin-top: 5px;
+  background: #4d2eed;
+  padding: 6px 6px;
+  position: relative;
+  border-radius: 4px;
+
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -128,7 +136,9 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+ /* text-transform: ; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 #header .logo a {
@@ -1865,6 +1875,12 @@ section {
   border-top: 1px solid #0f2f57;
   text-align: center;
   padding-top: 30px;
+}
+
+.sub{
+  color: #4b2eed;
+  margin-top: 10px;
+  display: block;
 }
 
 #footer .credits {
