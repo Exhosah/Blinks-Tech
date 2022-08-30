@@ -79,30 +79,46 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Why Us Section ======= -->
-  <section id="why-us" class="why-us section-bg">
+  <!-- ======= video Section ======= -->
+  <section id="why-us" class="why-us section-bg"><br><br>
     <div class="container-fluid" data-aos="fade-up">
 
       <div class="row">
 
         <div class="col-lg-5 align-items-stretch video-box" style="background-image: url('assets/img/why-us.jpg');"
           data-aos="zoom-in" data-aos-delay="100">
-          <a href="https://www.youtube.com/watch?v=jDDaplaO7Q" class="venobox play-btn mb-4" data-vbtype="video"
-            data-autoplay="true"></a>
-        </div>
-
+         <video id="vid1" width="500" height="500" autoplay muted>
+          <source src="assets/videos/vid1.mp4" type="video/mp4">   
+        </video>
+        <div class="play-btn">
+             <a onclick="playVid()" type="button" aria-hidden="true"></a>
+              <a onclick="pauseVid()" type="button" aria-hidden="true"></a>
+          </div>
+              </div>
+              
         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
 
           <div class="content">
-            <h3>Click the Video above to see how well <strong>we do our job. </strong></h3>
+            <h3>This Sample Video above shows how well <strong>we do our job. </strong></h3>
             <p>
-              <!-- ore magna aliqua. Duis aute irure dolor in reprehenderit--->
+              
+                          <script> 
+                var vid = document.getElementById("vid1"); 
+                
+                function playVid() { 
+                  vid.play(); 
+                } 
+                
+                function pauseVid() { 
+                  vid.pause(); 
+                } 
+                </script>
             </p>
           </div>
         </div>
       </div>
     </div>
-  </section><!-- End Why Us Section -->
+  </section><!-- video Section -->
 
 
   <!-- ======= Footer ======= -->
@@ -119,14 +135,13 @@
               <p><br>
               <h3>Contact us @<br></h3>
               <strong>Phone:</strong> 080-2305-4778<br>
-              <strong>Email:</strong> JulieBlinksTech.info<br>
+              <strong>Email:</strong> info@JulieBlinksTech.ng<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-whatsapp"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-gmail"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/+2348023054778?text=Hi! i want to repair my device" class="whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+                 <a href="julieblinkstech.info@gmail.com" class="google-plus" target="_blank"><i class="bx bxl-gmail"></i></a>
+                 <a href="https://linkedin.com/company/julie-blinks-tech" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -154,41 +169,86 @@
           </div>
 
                       
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Subscribe to Our Newsletter</h4>
-              <form action="" method="post">
-                <input type="email" name="email" placeholder="Input your email"><input type="submit" value="Subscribe">
-              </form>
-            </div>
+                        <!-- Begin Mailchimp Signup newsletter Form -->
+          
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                          <h4>Subscribe to Our Newsletter</h4>
+                     
+                    <div id="mc_embed_signup">
+                <form action="https://gmail.us18.list-manage.com/subscribe/post?u=a7c80e2eee510a6f23ff089f3&amp;id=446ac45f71&amp;f_id=00cb6fe7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Input your email" required>
+              <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a7c80e2eee510a6f23ff089f3_446ac45f71" tabindex="-1" value=""></div>
+                    <div class="optionalParent">
+                        <div class="clear foot">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+                    </div>
+            <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+            <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            
+                      </form>
+                            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                
               </div>
-  
-          </div>
-        </div>
-
-    <div class="container">
-      <div class="copyright">
-        Copyright <strong><span>Julie~Blinks Tech&copy; 2022</span></strong>. All Rights Reserved
-        <br>Designed by <a href="https://">EXHOSAH</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+                          </div>
+                          </div>
+                          <div> <span id="msg" class="sub"></span></div>
+             
+            
+            
+                          <script>
+                            const scriptURL =''
+                            const form = document.forms['submit-to-google-sheet']
+                            const msg = document.getElementById("msg")
+            
+                            form.addEventListener('submit', e => {
+                              e.preventDefault()
+                              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                                .then(response => {
+                                    msg.innerHTML = "Thank You for Subscribing!"
+                                    setTimeout(function(){
+                                        msg.innerHTML = ""
+                                    },5000)
+                                    form.reset()
+                                })
+                                .catch(error => console.error('Error!', error.message))
+                            })
+                          </script>
+            
+                      </div>
+                    </div>
+            <!--End mc_embed_newsletter signup-->
+            
+                <div class="container">
+                  <div class="copyright">
+                    Copyright <strong><span>Julie~Blinks Tech&copy; 2022</span></strong>. All Rights Reserved
+                    <br>Designed by <a href="https://">EXHOSAH</a>
+                  </div>
+                </div>
+              </footer><!-- End Footer -->
+            
+              <div id="preloader"></div>
+              <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+                  class="bi bi-arrow-up-short"></i></a>
+            
+              <!-- Vendor JS Files -->
+              <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+              <script src="assets/vendor/aos/aos.js"></script>
+              <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+              <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+              <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+              <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+              <script src="assets/vendor/php-email-form/validate.js"></script>
+            
+              <!--  Main JS File -->
+              <script src="assets/js/main.js"></script>
+            
+            </body>
+            
+            </html>
