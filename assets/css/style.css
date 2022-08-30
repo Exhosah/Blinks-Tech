@@ -33,6 +33,14 @@ h6 {
   border-radius: 4px;
 
 }
+
+.terms-head{
+  text-align: center;
+}
+.terms{
+  color: #ef6445;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1590,6 +1598,13 @@ section {
   margin-bottom: 0;
 }
 
+.tacbox {
+  display:block;
+  padding: 0;
+  margin: 10px, 0;
+ }
+
+
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
@@ -1734,6 +1749,8 @@ section {
   content: "/";
 }
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1875,12 +1892,6 @@ section {
   border-top: 1px solid #0f2f57;
   text-align: center;
   padding-top: 30px;
-}
-
-.sub{
-  color: #4b2eed;
-  margin-top: 10px;
-  display: block;
 }
 
 #footer .credits {
