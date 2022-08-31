@@ -620,6 +620,37 @@ section {
   color: #0f2f57;
 }
 
+.section h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #f38b74;
+  margin: 4px 10px;
+}
+
+
+.section p {
+  margin: 0;
+  margin: 0;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0f2f57;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -959,14 +990,14 @@ section {
   text-align: center;
   background: #fefefe;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  padding: 80px 20px;
+  padding: 50px 20px;
   transition: all ease-in-out 0.3s;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   background: #4b2eed;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
@@ -1039,6 +1070,8 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
+
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
